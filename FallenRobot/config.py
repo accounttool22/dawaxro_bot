@@ -2,32 +2,32 @@ class Config(object):
     LOGGER = True
 
   # Get this value from my.telegram.org/apps
-    API_ID = 
-    API_HASH = ""
+    API_ID = 14443867
+    API_HASH = "46ab81bdbf98137173153b27ec7904b2"
 
-    CASH_API_KEY = ""  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
+    CASH_API_KEY = "SYHCSE6UG"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgres://kynvmhzo:MZOGc-G_6v0iMf_JwmfpwEUsbjYabjjZ@peanut.db.elephantsql.com/kynvmhzo"  # A sql database url from elephantsql.com
 
-    EVENT_LOGS = ()  # Event logs channel to note down important bot level events
+    EVENT_LOGS = (-1001595694593)  # Event logs channel to note down important bot level events
 
-    MONGO_DB_URI = ""  # Get ths value from cloud.mongodb.com
+    MONGO_DB_URI = "mongodb+srv://appname:appname@cluster0.frxe2ie.mongodb.net/?retryWrites=true&w=majority"  # Get ths value from cloud.mongodb.com
 
   # Telegraph link of the image which will be shown at start command.
     START_IMG = "https://te.legra.ph/file/40eb1ed850cdea274693e.jpg"
 
     SUPPORT_CHAT = "DevilsHeavenMF"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = ""  # Get bot token from @BotFather on Telegram
+    TOKEN = "5793837390:AAFH5JvQNHFCatBgA-z-hlAxEu71EKXtkAo"  # Get bot token from @BotFather on Telegram
 
-    TIME_API_KEY = ""  # Get this value from https://timezonedb.com/api
+    TIME_API_KEY = "DHUTRSSXCC"  # Get this value from https://timezonedb.com/api
 
-    OWNER_ID =   # User id of your telegram account (Must be integer)
+    OWNER_ID =  5448287981 # User id of your telegram account (Must be integer)
 
   # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
     DRAGONS = []  # User id of sudo users
-    DEV_USERS = []  # User id of dev users
+    DEV_USERS = [5448287981]  # User id of dev users
     DEMONS = []  # User id of support users
     TIGERS = []  # User id of tiger users
     WOLVES = []  # User id of whitelist users
